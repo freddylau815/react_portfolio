@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+$bgcolor: #222221;
+$text-color: #eee;
+$secondary-color: #b4fb5d;
+
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  // color: rgba(0, 0, 0, 0.87);
+  background-color: #d7d7d7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Header
+
+header {
+  background-color: $bgcolor;
+  color: $text-color;
+
+  .header-list {
+    background-color: $bgcolor;
+    
+    li {
+      color: $text-color;
+     
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+} 
