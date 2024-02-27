@@ -2,7 +2,7 @@ function About() {
   return (
     <section className='mx-2'>
       <div className='mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:gap-6 my-12'>
-        <h2 className='font-bold text-2xl col-span-2 md:col-span-1 flex'>
+        <h2 className='font-bold text-2xl col-span-2 md:col-span-1'>
           ABOUT ME
         </h2>
         <div className='col-span-2 md:col-span-1 flex flex-col'>
@@ -13,7 +13,7 @@ function About() {
             I'm excited to contribute my new found skills to innovative projects
             and collaborations. Let's build something great together!
           </p>
-          <button className='h-10 w-36 bg-green-500 text-lg font-bold mt-4'>
+          <button className='h-10 w-36 bg-green-500 text-lg font-bold mt-4 rounded-md'>
             Resume
           </button>
         </div>
