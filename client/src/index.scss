@@ -2,19 +2,19 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-$bgcolor: #222221;
+$bgcolor: #151515;
 $text-color: #eee;
-$secondary-color: #b4fb5d;
+$secondary-color: #524cff;
 
  :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: $text-color;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   // color: rgba(0, 0, 0, 0.87);
-  background-color: #2b2b2b;
+  background-color: $bgcolor;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,10 +36,15 @@ header {
      
       &:hover {
         color: $secondary-color;
+        transition: .25s;
       }
     }
   }
 } 
+
+.title {
+  letter-spacing: 2px;
+}
 
 .project-1 {
   background-image: url("../public/assets/images/photo-1451187580459-43490279c0fa.jpeg");
@@ -57,4 +62,22 @@ header {
 .project-4 {
   background-image: url("../public/assets/images/photo-1564296787019-78c9b13c9b22.jpeg");
   background-size: cover;
+}
+
+.description {
+  color: lighten($bgcolor, 45%)
+}
+
+
+footer {
+  background-color: $bgcolor;
+}
+
+button {
+  background-color: $secondary-color;
+  &:hover {
+    background-color: $text-color;
+    color: $secondary-color;
+    transition: .25s;
+  }
 }

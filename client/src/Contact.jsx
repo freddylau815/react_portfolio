@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <section className='mx-2'>
+      <section id='contact' className='mx-2'>
         <div className='mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:gap-6 my-20'>
           <div className='col-span-2 md:col-span-1'>
             <h1 className='font-bold text-2xl col-span-2 md:col-span-1'>
@@ -66,7 +66,7 @@ function Contact() {
                   name='redirect'
                   value='http://localhost:5174/'
                 ></input>
-                <button className='h-10 w-36 bg-green-500 text-lg font-bold mt-4 rounded-md'>
+                <button className='h-10 w-36 text-lg font-bold mt-4 rounded-md'>
                   Submit
                 </button>
               </div>

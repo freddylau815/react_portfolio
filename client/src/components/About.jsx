@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className='mx-2'>
+    <section id='about' className='mx-2'>
       <div className='mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:gap-6 my-16'>
         <h2 className='font-bold text-2xl col-span-2 md:col-span-1'>
           ABOUT ME
@@ -13,7 +13,7 @@ function About() {
             I'm excited to contribute my new found skills to innovative projects
             and collaborations. Let's build something great together!
           </p>
-          <button className='h-10 w-36 bg-green-500 text-lg font-bold mt-4 rounded-md'>
+          <button className='h-10 w-36 text-lg font-bold mt-4 rounded-md'>
             Resume
           </button>
         </div>

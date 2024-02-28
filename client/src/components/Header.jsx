@@ -3,17 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   let Links = [
-    { name: 'WORK', link: '/' },
-    { name: 'ABOUT ME', link: '/' },
-    { name: 'CONTACT', link: '/' },
+    { name: 'WORK', link: '#work' },
+    { name: 'ABOUT ME', link: '#about' },
+    { name: 'CONTACT', link: '#contact' },
   ];
   let [open, setOpen] = useState(false);
   return (
-    <header className='w-full sticky top-0 left-0'>
+    <header className='w-full sticky top-0 left-0 border-b-4 border-zinc-900'>
       <div className='max-w-screen-xl mx-auto'>
         <div className='mx-2'>
           <div className='md:flex items-center justify-between py-4'>
-            <h1 className='font-bold text-2xl py-3 cursor-pointer flex items-center'>
+            <h1 className='title font-bold text-2xl py-3 cursor-pointer flex items-center'>
               FREDDY LAU
             </h1>
 
@@ -32,7 +32,7 @@ function Header() {
               {Links.map((link) => (
                 <li
                   key={link.name}
-                  className='text-white md:ml-8 text-xl md:my-0 my-7 duration-300'
+                  className='font-medium md:ml-8 text-xl md:my-0 my-7'
                 >
                   <a href={link.link}>{link.name}</a>
                 </li>

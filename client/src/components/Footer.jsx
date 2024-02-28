@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className='w-full bt0 left-0 bg-slate-900'>
+    <footer className='w-full bt0 left-0'>
       <div className='mx-2'>
         <div className='max-w-screen-xl mx-auto'>
           <div className='md:flex items-center justify-between py-4'>
