@@ -1,7 +1,7 @@
 function About() {
   return (
     <section className='mx-2'>
-      <div className='mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:gap-6 my-12'>
+      <div className='mx-auto grid max-w-7xl grid-cols-2 gap-2 sm:gap-6 my-16'>
         <h2 className='font-bold text-2xl col-span-2 md:col-span-1'>
           ABOUT ME
         </h2>

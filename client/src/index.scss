@@ -10,6 +10,7 @@ $secondary-color: #b4fb5d;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  color: $text-color;
 
   color-scheme: light dark;
   // color: rgba(0, 0, 0, 0.87);
@@ -39,3 +40,21 @@ header {
     }
   }
 } 
+
+.project-1 {
+  background-image: url("../public/assets/images/photo-1451187580459-43490279c0fa.jpeg");
+  background-size: cover;
+}
+
+.project-2 {
+  background-image: url("../public/assets/images/photo-1495592822108-9e6261896da8.jpeg");
+  background-size: cover;
+}
+.project-3 {
+  background-image: url("../public/assets/images/photo-1510906594845-bc082582c8cc.jpeg");
+  background-size: cover;
+}
+.project-4 {
+  background-image: url("../public/assets/images/photo-1564296787019-78c9b13c9b22.jpeg");
+  background-size: cover;
+}
