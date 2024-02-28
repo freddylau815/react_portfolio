@@ -8,7 +8,7 @@ This project showcases my portfolio built with React. It is a single-page websit
 
 ## Repository
 
-Link to code: [Note Taker Code](https://github.com/freddylau815/react_portfolio)
+Link to code: [React Portfolio Code](https://github.com/freddylau815/react_portfolio)
 
 ## Technologies
 
@@ -19,7 +19,7 @@ Link to code: [Note Taker Code](https://github.com/freddylau815/react_portfolio)
 
 ## Usage
 
-Open link for deployment: [Portfolio]()
+Open link for deployment: [Portfolio](https://main--freddylauportfolio.netlify.app/)
 
 ## License
 
